@@ -1,0 +1,82 @@
+body{
+  /*background-color: #CD5D67;*/
+  background-image:
+      url("https://media.giphy.com/media/ygAaR0n5RsyAM/giphy.gif");
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+img{
+  border-radius: 35%
+}
+
+h1{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #2E3138;
+}
+
+h2{
+  margin:   0px;
+}
+
+a{
+  color: #080705;
+  text-decoration-line: none;
+}
+
+a:hover{
+  color: #D2BF55;
+  text-decoration: underline;
+}
+
+.whitecard{
+  background: #EBFFF9;
+  padding: 1%;
+  margin: 2% auto 3%;;
+  border-radius: 10px;
+  background-size: cover;
+  width: 40%;
+}
+
+.nopadding{
+  padding:  0px;
+}
+
+#footer{
+  background: #EDEEEF;
+  height: 70px;
+  padding: 0px;
+}
+
+.list-inline{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding: 0px, 20px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/*#253031 preto #CD5D67 salmao #004F8C azul #CC8B86 bege #28AFB0 ciano*/
