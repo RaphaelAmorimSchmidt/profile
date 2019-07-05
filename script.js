@@ -10,5 +10,5 @@ const carregar = () => {
     apresentacao = "Boa Noite";
   }
 
-  msg.innerHTML = `${apresentacao}, sou Raphael Amorim Schmidt.`;
+  msg.innerHTML = `${apresentacao}, sou Raphael Amorim Schmidt!`;
 };
